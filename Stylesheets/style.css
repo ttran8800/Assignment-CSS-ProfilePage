@@ -1,0 +1,155 @@
+body {
+    background-color: #e2e8f0;
+}
+
+.custom-div {
+    padding: 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 2px 2px gray;
+    border-radius: 7px;
+}
+
+.customrightdiv {
+    padding: 10px 30px;
+}
+
+.topleft ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(215, 240, 251);
+}
+
+.topleft ul:hover {
+    box-shadow: 2px 2px gray;
+}
+
+
+
+.topleft h4 {
+    color: rgb(99, 99, 99);
+}
+
+.topleft p {
+    color: gray;    
+}
+
+#toprightli {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listlefttext {
+    text-align: left;
+}
+
+.listrighttext {
+    text-align: right;
+}
+
+.listrighttextactive {
+    color: white;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: green;
+}
+
+.listlefttextactive {
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.topright {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0px;
+    min-width: 50px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex-basis: 50%;
+    }
+}
+
+#showfullinformation {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+
+.showfullinformation {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.showfullinformation:hover {
+    background-color: rgb(215, 240, 251);
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+
+.showfullinformation a:hover {
+    text-decoration: none;
+}
+
+.botrighttitle {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.botrightrow {
+    color: green;
+    font-size: 20px;
+}
+
+.column ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0px;
+}
+
+#botrightlifirst {
+    font-size: 20px;
+    color: green;
+}
+
+#botrightlisecond {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.botlefttitle {
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon img {
+    width: 90px;
+    margin: 10px;
+}
+
+.container {
+    margin-top: 100px;
+}
